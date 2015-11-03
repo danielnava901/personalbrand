@@ -411,7 +411,7 @@ th {
   flex-direction: column;
   width: 33%;
   height: 100%;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .Footer-tools {
@@ -426,17 +426,27 @@ th {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  justify-content: space-around;
   margin: 0px;
   padding: 0px;
 }
 .list {
   font-size: 1.7rem;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 .myname {
   font-size: 1.3rem;
 }
 .mytitle {
   font-size: 0.9rem;
+}
+.mytitle::before {
+  content: "< ";
+}
+.mytitle::after {
+  content: " />";
 }
 .mysummary {
   font-size: 0.95rem;
