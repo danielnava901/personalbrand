@@ -384,10 +384,11 @@ th {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 300px;
-  color: #fff;
+  height: 210px;
+  color: rgba(179,179,179,0.9);
   background-color: #333;
   justify-content: center;
+  padding: 30px 0px;
 }
 .Footer-wrapper {
   display: flex;
@@ -395,12 +396,96 @@ th {
   justify-content: space-between;
   align-items: center;
   width: 1024px;
+  height: 100%;
+}
+.Footer-social {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Footer-description {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-tools {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .Footer-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   list-style-type: none;
-  justify-content: space-around;
   margin: 0px;
   padding: 0px;
+}
+.list {
+  font-size: 1.7rem;
+}
+.myname {
+  font-size: 1.3rem;
+}
+.mytitle {
+  font-size: 0.9rem;
+}
+.mysummary {
+  font-size: 0.95rem;
+  margin: 10px 0px;
+  text-align: center;
+}
+.hr {
+  width: 100%;
+  height: 1px;
+  border-bottom: 4px solid #ffbf00;
+  margin: 20px 0px;
+}
+.Font-playfair {
+  font-family: 'Playfair Display' serif;
+}
+.Font-abril {
+  font-family: 'Abril Fatface' cursive;
+}
+.Font-bevan {
+  font-family: 'Bevan' cursive;
+}
+.Font-alegreya {
+  font-family: 'Alegreya Sans' sans-serif;
+}
+.Font-francois {
+  font-family: 'Francois One' sans-serif;
+}
+.Font-librebasker {
+  font-family: 'Libre Baskerville' serif;
+}
+.Font-lato {
+  font-family: 'Lato' sans-serif;
+}
+.Font-merriw {
+  font-family: 'Merriweather' serif;
+}
+.Font-merriws {
+  font-family: 'Merriweather Sans' sans-serif;
+}
+.Font-openssans {
+  font-family: 'Open Sans' sans-serif;
+}
+.Font-roboto {
+  font-family: 'Roboto Condensed' sans-serif;
+}
+.FontStylebold {
+  font-style: bold;
+  font-weight: 700;
+}
+.Fontcolor1 {
+  color: rgba(39,62,72,0.86);
 }
