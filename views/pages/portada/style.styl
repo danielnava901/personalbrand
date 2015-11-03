@@ -1,0 +1,83 @@
+.Portada
+	display flex
+	&-img
+		display flex
+		flex-direction column
+		width 100vw
+		height 91vh
+		margin 0px
+		padding 0px
+		background-image: url("../img/cielo.jpg")
+		background-repeat: no-repeat
+		background-size: cover
+		justify-content center
+		align-items center
+		//-webkit-filter: blur(5px);
+		//filter: blur(5px);
+	&-myimage
+		display flex
+		justify-content center
+		align-items center
+		width 150px
+		border-radius 50%
+	&-titulo
+		color #eaeaea
+		font-size 3rem
+		margin 15px
+	&-subtitulo
+		margin 0px
+		font-size 2rem
+		color #ffbf00
+	&-subtitulo::after
+		content " />"
+	&-subtitulo::before
+		content "< "
+	&-texto
+		display flex
+		flex-direction column
+		align-items center
+		justify-content center
+	&-quote
+		display flex
+		flex-direction column
+		//justify-content center
+		//align-items center
+		width 500px
+		//text-align center
+		color rgba(#efefef, 0.9)
+		margin 35px auto 15px auto
+/*.arrow 
+	display flex
+	flex-direction row
+	//justify-content center
+	//align-items flex-end
+	//margin-top 200px
+	&-item
+		//align-self flex-end
+		font-size 2rem
+		color white*/
+		
+/*.img-item
+	width 100vw
+	height 100vh
+*/
+
+.medium-img
+	width 150px
+	border-radius 50%
+	border 7px solid #ffbf00
+	
+.quote
+	font-style italic
+	font-size 0.9rem
+	text-align justify
+	&::first-letter
+		font-size 2rem
+		color rgba(#ffbf00, 0.8)
+.autor
+	font-style italic
+	font-size 0.95rem
+	text-align right
+	margin-top 5px
+.autor:before
+	content "-"
