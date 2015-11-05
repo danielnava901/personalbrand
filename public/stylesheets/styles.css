@@ -316,7 +316,7 @@ th {
 .quote {
   font-style: italic;
   font-size: 0.9rem;
-  text-align: justify;
+  text-align: right;
 }
 .quote::first-letter {
   font-size: 2rem;
@@ -412,7 +412,8 @@ th {
 }
 .proy {
   width: 300px;
-  border: 2px solid #ffbf00;
+  height: 144px;
+  border: 4px solid #ffbf00;
 }
 .Form {
   display: flex;
