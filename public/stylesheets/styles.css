@@ -384,7 +384,7 @@ th {
   justify-content: space-around;
   width: 1024px;
   height: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .Proy-recientes-galeria {
   display: flex;
@@ -399,6 +399,7 @@ th {
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .border-box {
   border: 2px solid #ffbf00;
@@ -414,6 +415,9 @@ th {
   width: 300px;
   height: 144px;
   border: 4px solid #ffbf00;
+}
+.btn-white {
+  background-color: #fff;
 }
 .Form {
   display: flex;
