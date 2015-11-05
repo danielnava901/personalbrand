@@ -331,6 +331,89 @@ th {
 .autor:before {
   content: "-";
 }
+.Presentacion {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.Presentacion-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  height: 100%;
+}
+.Presentacion-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+}
+.text-header {
+  margin: 30px 0px 40px 0px;
+  font-size: 1.8rem;
+}
+.text-body {
+  font-size: 0.9rem;
+}
+.separador-hr {
+  border: 0;
+  height: 1px;
+  text-align: center;
+  width: 1024px;
+  background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#fff), to(#fff), color-stop(0.5, #b3b3b3));
+}
+.Proy-recientes {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.Proy-recientes-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1024px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.Proy-recientes-galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.Proy-recientes-header {
+  text-align: center;
+}
+.Proy-recientes-vermas {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.border-box {
+  border: 2px solid #ffbf00;
+  padding: 10px;
+}
+.proy-img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.proy {
+  width: 300px;
+  border: 2px solid #ffbf00;
+}
 .Form {
   display: flex;
   flex-direction: column;
@@ -385,7 +468,7 @@ th {
   flex-direction: row;
   width: 100vw;
   height: 210px;
-  color: rgba(179,179,179,0.9);
+  color: rgba(179,179,179,0.8);
   background-color: #333;
   justify-content: center;
   padding: 30px 0px;
@@ -434,7 +517,11 @@ th {
   font-size: 1.7rem;
   width: 100%;
   justify-content: space-around;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+.list li:hover {
+  color: #b3b3b3;
+  cursor: pointer;
 }
 .myname {
   font-size: 1.3rem;
